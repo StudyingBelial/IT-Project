@@ -169,6 +169,10 @@ img{
     align-items: center;
   }
 
+  .media_row a{
+    text-decoration: none;
+  }
+
 .content img{
   width: 450px;
   height: 450px;
@@ -192,6 +196,103 @@ img{
     padding: 10px;
   }
 
+  .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 100px;
+    text-align: center;
+    color: #efefef;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #efefef;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .contact h1{
+    padding: 20px;
+    font-size: 32pt;
+  }
+
+  .contact_form{
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 5px;
+    font-size: 16pt;
+  }
+  .contact input{
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #efefef;
+    color: #efefef;
+    margin-left: 10px;
+    height: 30px;
+  }
+
+
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 100px;
+    text-align: center;
+    color: #efefef;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #efefef;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .login h1{
+    padding: 20px;
+    font-size: 32pt;
+  }
+  
+  .login_form{
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 5px;
+    font-size: 16pt;
+  }
+
+  .form input{
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #efefef;
+    color: #efefef;
+    margin-left: 10px;
+    height: 30px;
+  }
+  
+  #remember{
+    width: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #efefef;
+    color: #efefef;
+    width: 120px;
+    height: 50px;
+    margin: 50px;
+  }
 
   /*.content{
     display: flex;
