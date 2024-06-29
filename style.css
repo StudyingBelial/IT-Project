@@ -58,6 +58,32 @@ img{
     color: #fb9f00;
 }
 
+
+
+.error{
+  color: #efefef;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.error a{
+  text-decoration: none;
+  color: #efefef;
+}
+
+.error div p{
+  margin: 20px;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.error div a{
+  margin: 20px;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+
 .right a{
     text-decoration: none;
     color: #efefef;
@@ -137,11 +163,41 @@ img{
     width: 190px;
   }
 
+  .media_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.content img{
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+  .content{
+    background-color: #303035;
+    margin:30px;
+    color: #efefef;
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0px;
+  }
+
+
+  .content h2 {
+    background-color: inherit;
+    padding: 10px;
+  }
+
+
   /*.content{
     display: flex;
     flex-direction: column;
     gap:3px;
-  }*/
+  }
 
   .content span{
     font-size: 0.8rem;
@@ -155,7 +211,7 @@ img{
   .card .price{
     font-weight: bold;
     font-size: 1.1rem;
-  }
+  }*/
 /* adv */
 .adv-img{
     display: flex;
@@ -174,12 +230,18 @@ img{
 .brand-card img{
     width: 280px;
 }
-
   /* footer */
   .footer{
-    color:#ffffff;
+    color: #ffffff;
     text-align: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   .footer a{
@@ -189,8 +251,8 @@ img{
 
   .socials{
     text-align: left;
-    margin:10px;
-    padding:10px;
+    margin:15px;
+    padding:5px;
   }
   .socials h4{
     margin-left: 8px;
@@ -199,8 +261,8 @@ img{
 
   .partners{
     text-align: left;
-    margin:10px;
-    padding:10px;
+    margin:15px;
+    padding:5px;
   }
   .partners h4{
     margin-left: 8px;
@@ -209,8 +271,8 @@ img{
 
   .info{
     text-align: left;
-    margin:10px;
-    padding:10px;
+    margin:15px;
+    padding:5px;
   }
   .info h4{
     margin-left: 8px;
